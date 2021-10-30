@@ -1,0 +1,206 @@
+PODS:
+  - Alamofire (4.2.0)
+  - DatePickerDialog (4.0)
+  - Firebase/Analytics (8.2.0):
+    - Firebase/Core
+  - Firebase/Core (8.2.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 8.2.0)
+  - Firebase/CoreOnly (8.2.0):
+    - FirebaseCore (= 8.2.0)
+  - Firebase/Messaging (8.2.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.2.0)
+  - FirebaseAnalytics (8.2.0):
+    - FirebaseAnalytics/AdIdSupport (= 8.2.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (8.2.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleAppMeasurement (= 8.2.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseCore (8.2.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.2.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.2.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+    - PromisesObjC (~> 1.2)
+  - FirebaseMessaging (8.2.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Reachability (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+  - GoogleAppMeasurement (8.2.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.2.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.2.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.0.1):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.4.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.4.3):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.4.3):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.4.3):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.4.3):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.4.3)"
+  - GoogleUtilities/Reachability (7.4.3):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.4.3):
+    - GoogleUtilities/Logger
+  - GrowingTextView (0.7.2)
+  - IQKeyboardManager (6.5.6)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
+    - PINCache/Core
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.1)
+  - PINRemoteImage (3.0.3):
+    - PINRemoteImage/PINCache (= 3.0.3)
+  - PINRemoteImage/Core (3.0.3):
+    - PINOperation
+  - PINRemoteImage/PINCache (3.0.3):
+    - PINCache (~> 3.0.3)
+    - PINRemoteImage/Core
+  - PromisesObjC (1.2.12)
+  - QRCode (2.0)
+  - QRCodeReader.swift (10.1.0)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - SideMenuSwift (2.0.7)
+  - Starscream (3.0.6)
+  - Stripe (21.8.1):
+    - Stripe/Stripe3DS2 (= 21.8.1)
+    - StripeCore (= 21.8.1)
+  - Stripe/Stripe3DS2 (21.8.1):
+    - StripeCore (= 21.8.1)
+  - StripeCore (21.8.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftKeychainWrapper (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire (= 4.2)
+  - DatePickerDialog
+  - Firebase/Analytics
+  - Firebase/Messaging
+  - GrowingTextView
+  - IQKeyboardManager
+  - PINRemoteImage (~> 3.0.3)
+  - QRCode
+  - QRCodeReader.swift (~> 10.1.0)
+  - SDWebImage (~> 5.10.3)
+  - SideMenuSwift
+  - Starscream (~> 3.0.2)
+  - Stripe (~> 21.4)
+  - SVProgressHUD
+  - SwiftKeychainWrapper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DatePickerDialog
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GrowingTextView
+    - IQKeyboardManager
+    - nanopb
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - PromisesObjC
+    - QRCode
+    - QRCodeReader.swift
+    - SDWebImage
+    - SideMenuSwift
+    - Starscream
+    - Stripe
+    - StripeCore
+    - SVProgressHUD
+    - SwiftKeychainWrapper
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  DatePickerDialog: ccff2f91ff7a018057a4d72fa5ad6de49c8cb0cd
+  Firebase: 12c568897b807321964e89d2b263ef4c6cff3db6
+  FirebaseAnalytics: 7a744b1e7dc50125cb37714c6bdaea167e412082
+  FirebaseCore: 3a83f24c3de69ec9f9a426e2598125ea51f3a2ce
+  FirebaseCoreDiagnostics: 61384f54989065b15c36b5922b65112e86811d3c
+  FirebaseInstallations: 9394ea09e242bf0816e95ac30e56a9214cc86ced
+  FirebaseMessaging: abe18570508ef84ab6957bba35871410457ed588
+  GoogleAppMeasurement: b52eafc9dff542d580700e708216568bd2fbf168
+  GoogleDataTransport: 04c3e9a480bbcaa2ec3f5d27f1cdeb6a92f20c8d
+  GoogleUtilities: 45dbb24a7f351d69d0a601482b39ad6c32e30dab
+  GrowingTextView: 876bf42005b5e4a4fd740597db12caaf41f0fe6c
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
+  PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+  QRCodeReader.swift: 373a389fe9a22d513c879a32a6f647c58f4ef572
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SideMenuSwift: ffbbc88d23741932177ad1320df837cedfb3bc5e
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  Stripe: 57c6997c64042a3f5aedae9b76e331942f8b75d2
+  StripeCore: a6e50d58119a0c7601773b56f274db2d394dcdac
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+
+PODFILE CHECKSUM: e2a2aaa0b2d40fce32125dd94f5b7676d4340412
+
+COCOAPODS: 1.10.1

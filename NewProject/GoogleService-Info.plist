@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>983676338400-krpeq01s2njt0fgc6e7t4dutkjua8okj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.983676338400-krpeq01s2njt0fgc6e7t4dutkjua8okj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBuudppLx_XyS98BiIbZgmyOR9dDxWDr5o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>983676338400</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.authenticode.xi</string>
+	<key>PROJECT_ID</key>
+	<string>xi-alpha-lambda-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>xi-alpha-lambda-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:983676338400:ios:5832288e00cb7cc7c8d085</string>
+</dict>
+</plist>

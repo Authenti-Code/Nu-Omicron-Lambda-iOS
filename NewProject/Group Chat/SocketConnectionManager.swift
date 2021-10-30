@@ -16,7 +16,7 @@ import Starscream
 class SocketConnectionManager : WebSocketDelegate {
 //    http://31.14.40.72:8081
 //    http://31.14.40.72:8092
-    var socket = WebSocket(url: URL(string: "ws://31.14.40.72:8088")!)
+    var socket = WebSocket(url: URL(string: "ws://31.14.40.72:8089")!)
     var vc: SocketConnectionManagerDelegate?
     static let shared = SocketConnectionManager()
     

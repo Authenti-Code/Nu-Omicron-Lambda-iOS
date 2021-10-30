@@ -15,10 +15,10 @@ class InitialVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         btnGuest?.layer.cornerRadius = 25.0
-        btnGuest?.clipsToBounds = true
+        //btnGuest?.clipsToBounds = true
         
         btnLogin?.layer.cornerRadius = 25.0
-        btnLogin?.clipsToBounds = true
+        //btnLogin?.clipsToBounds = true
         self.navigationController?.isNavigationBarHidden = true
 
         // Do any additional setup after loading the view.

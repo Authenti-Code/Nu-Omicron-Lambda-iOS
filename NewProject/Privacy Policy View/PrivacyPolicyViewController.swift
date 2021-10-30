@@ -22,7 +22,7 @@ class PrivacyPolicyViewController: UIViewController,APIsDelegate
         API.shared.deligate = self
         if self.code == 0 {
             key = "about"
-            self.lblTitle.text = "ABOUT XAL"
+            self.lblTitle.text = "ABOUT NOL"
         }else if self.code == 1{
             key = "tnc"
             self.lblTitle.text = "TERMS AND CONDITIONS"

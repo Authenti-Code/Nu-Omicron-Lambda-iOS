@@ -202,7 +202,7 @@ class ViewController: UIViewController,APIsDelegate {
     
     func getAdds() {
         var params = [String:String]()
-        params = ["key": "3p2ddt8bb3plmhuafvsqrzhrp0ptei7r"]; Alamofire.request("https://apa1906.app/api/adds", method: .post, parameters: params, encoding: JSONEncoding.default,headers: nil ).responseJSON { (response:DataResponse<Any>) in
+        params = ["key": "vtqxkzkt5n3kubbjha7uy2l1pc296uqs"]; Alamofire.request("https://apa1906.app/api/adds", method: .post, parameters: params, encoding: JSONEncoding.default,headers: nil ).responseJSON { (response:DataResponse<Any>) in
             
             switch(response.result) {
             case .success(_):
@@ -239,10 +239,9 @@ class ViewController: UIViewController,APIsDelegate {
         
         loginView?.backgroundColor = backGroundColor
         loginView?.layer.cornerRadius = 25.0
-        loginView?.clipsToBounds = true
+        
     }
-    
-    
+  
     func checkValidateEmail(text: String) -> Bool{
      
         if text == ""{
@@ -265,7 +264,6 @@ class ViewController: UIViewController,APIsDelegate {
         }
         passwordErrorLbl?.text = ""
 
-    
         return true
     }
 

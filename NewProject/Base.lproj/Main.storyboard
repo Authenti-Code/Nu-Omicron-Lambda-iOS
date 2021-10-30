@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -134,7 +134,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIn-jS-ajI">
-                                        <rect key="frame" x="138" y="471" width="99" height="11"/>
+                                        <rect key="frame" x="138" y="460.33333333333331" width="99" height="11"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="11" id="VZH-PH-Mv6"/>
                                         </constraints>
@@ -148,7 +148,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account?                      " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdO-9y-ZF8">
-                                        <rect key="frame" x="88.333333333333329" y="502" width="198.66666666666669" height="10"/>
+                                        <rect key="frame" x="88.333333333333329" y="491.33333333333337" width="198.66666666666669" height="10"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="10" id="pGy-IZ-zoQ"/>
                                         </constraints>
@@ -157,16 +157,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKm-oy-VfR">
-                                        <rect key="frame" x="37.666666666666657" y="397.33333333333331" width="300.33333333333337" height="60.666666666666686"/>
+                                        <rect key="frame" x="37.666666666666657" y="397.33333333333331" width="300.33333333333337" height="50"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ds-A8-C7I">
-                                                <rect key="frame" x="0.0" y="0.0" width="300.33333333333331" height="60.666666666666664"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="300.33333333333331" height="50"/>
                                                 <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hwz-mD-da5">
-                                                <rect key="frame" x="0.0" y="0.0" width="300.33333333333331" height="60.666666666666664"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="300.33333333333331" height="50"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
                                                     <action selector="loginActionBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g90-3w-rkA"/>
@@ -179,6 +179,7 @@
                                             <constraint firstAttribute="trailing" secondItem="Hwz-mD-da5" secondAttribute="trailing" id="5oQ-et-z89"/>
                                             <constraint firstItem="Hwz-mD-da5" firstAttribute="top" secondItem="vKm-oy-VfR" secondAttribute="top" id="Kot-sZ-egD"/>
                                             <constraint firstAttribute="bottom" secondItem="Hwz-mD-da5" secondAttribute="bottom" id="Rdg-GY-V02"/>
+                                            <constraint firstAttribute="height" constant="50" id="UAl-zG-SQu"/>
                                             <constraint firstAttribute="bottom" secondItem="9Ds-A8-C7I" secondAttribute="bottom" id="bv5-SX-7pQ"/>
                                             <constraint firstAttribute="trailing" secondItem="9Ds-A8-C7I" secondAttribute="trailing" id="d6o-4w-fos"/>
                                             <constraint firstItem="Hwz-mD-da5" firstAttribute="leading" secondItem="vKm-oy-VfR" secondAttribute="leading" id="mMy-yH-95K"/>
@@ -186,7 +187,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rl7-OW-fNc">
-                                        <rect key="frame" x="222" y="502" width="104" height="10"/>
+                                        <rect key="frame" x="222" y="491.33333333333337" width="104" height="10"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="10" id="iYh-zS-Mx3"/>
                                         </constraints>
@@ -334,7 +335,6 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pL1-D1-478" secondAttribute="bottom" id="EOK-La-Ax4"/>
                             <constraint firstItem="Ai8-1f-vRg" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.075" id="RLE-3G-xMI"/>
                             <constraint firstItem="C7S-qG-4vy" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.075" id="ds2-u4-4e6"/>
-                            <constraint firstItem="vKm-oy-VfR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.075" id="hp4-sP-x9o"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pL1-D1-478" secondAttribute="trailing" id="ifU-vf-PTi"/>
                             <constraint firstItem="pL1-D1-478" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kgu-IK-sbY"/>
                             <constraint firstItem="xpf-k2-Yqa" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="nzH-6t-s8S"/>
@@ -1089,7 +1089,7 @@
                                 <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="78B-OX-Ija" customClass="DocumentsTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="80"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="78B-OX-Ija" id="Nut-fC-amd">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -1315,7 +1315,7 @@
                                 <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="fMG-Kr-WXs" customClass="PaymentsTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="80"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fMG-Kr-WXs" id="96Y-jN-xWV">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -1579,7 +1579,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="90" id="chh-AU-q3X" customClass="ConnectSocialCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="335" height="90"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="335" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="chh-AU-q3X" id="fhO-R4-YU9">
                                             <rect key="frame" x="0.0" y="0.0" width="335" height="90"/>
@@ -1992,7 +1992,7 @@
                                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuTableViewCell" rowHeight="72" id="x6i-wx-JsP" customClass="MenuTableViewCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="44.666666030883789" width="303.66666666666669" height="72"/>
+                                                <rect key="frame" x="0.0" y="24.333333969116211" width="303.66666666666669" height="72"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="x6i-wx-JsP" id="1HG-ks-vrB">
                                                     <rect key="frame" x="0.0" y="0.0" width="303.66666666666669" height="72"/>
@@ -2313,7 +2313,7 @@ Two important places often left out. Child Care and a good local vet for our Fur
                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="116" id="LSy-pX-H6U" customClass="MessageAlertCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="343" height="116"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="343" height="116"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LSy-pX-H6U" id="31o-mD-qw2">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="116"/>
@@ -2729,7 +2729,7 @@ Two important places often left out. Child Care and a good local vet for our Fur
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="128" id="UXU-s9-Lvi" customClass="NewsTickerCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="44.666666030883789" width="335" height="128"/>
+                                                <rect key="frame" x="0.0" y="24.333333969116211" width="335" height="128"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UXU-s9-Lvi" id="ibP-uH-gVy">
                                                     <rect key="frame" x="0.0" y="0.0" width="335" height="128"/>
@@ -4937,7 +4937,7 @@ jvbdjbvkd</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PeopleGoingTableCell" rowHeight="80" id="Kdm-ya-LEP" customClass="PeopleGoingTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="80"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Kdm-ya-LEP" id="5hw-nR-cfG">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -5129,7 +5129,7 @@ jvbdjbvkd</string>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <prototypes>
                                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UpcomingEventsTableCell" rowHeight="125" id="jci-R3-4uC" customClass="UpcomingEventsTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="44.666666030883789" width="335" height="125"/>
+                                                        <rect key="frame" x="0.0" y="24.333333969116211" width="335" height="125"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jci-R3-4uC" id="1dk-QA-XEE">
                                                             <rect key="frame" x="0.0" y="0.0" width="335" height="125"/>
@@ -5515,7 +5515,7 @@ jvbdjbvkd</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AllPostTableCell" id="mlp-l3-JNl" customClass="AllPostTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="130"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mlp-l3-JNl" id="4Yy-3Q-gwc">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
@@ -5662,7 +5662,7 @@ jvbdjbvkd</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="postCell" id="XYM-8S-vVD" customClass="AllPostImageCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="174.66666603088379" width="375" height="130"/>
+                                        <rect key="frame" x="0.0" y="154.33333396911621" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XYM-8S-vVD" id="GxW-vG-TCP">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
@@ -6109,7 +6109,7 @@ jvbdjbvkd</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AllPostTableCell" rowHeight="110" id="2aD-P6-G1a" customClass="AllPostTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="110"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2aD-P6-G1a" id="S1C-Na-o2p">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
@@ -6188,7 +6188,7 @@ jvbdjbvkd</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="postCell" id="QeV-gq-W0a" customClass="AllPostImageCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="154.66666603088379" width="375" height="130"/>
+                                        <rect key="frame" x="0.0" y="134.33333396911621" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QeV-gq-W0a" id="T9u-Vv-cAc">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
@@ -7292,7 +7292,7 @@ jvbdjbvkd</string>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="3ba-l9-RjV" customClass="DirectoryTableViewCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="80"/>
+                                                <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="80"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3ba-l9-RjV" id="9Jp-gY-D3r">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -8108,7 +8108,7 @@ jvbdjbvkd</string>
                                 <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="OPF-Pe-J69" customClass="AlphaLinksTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="80"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OPF-Pe-J69" id="C4m-89-9a5">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -8418,14 +8418,8 @@ jvbdjbvkd</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LIy-gM-Njp">
                                 <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ΑΦΑ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6U-6y-prk">
-                                        <rect key="frame" x="20" y="25" width="335" height="37"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="31"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nu Omicron Lambda" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSZ-Tu-MTy">
-                                        <rect key="frame" x="37.666666666666657" y="72" width="300" height="35"/>
+                                        <rect key="frame" x="37.666666666666657" y="40" width="300" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="300" id="iQ7-Ig-nKh"/>
                                             <constraint firstAttribute="height" constant="35" id="if2-9Q-fDD"/>
@@ -8435,7 +8429,7 @@ jvbdjbvkd</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIk-Sb-wQV">
-                                        <rect key="frame" x="37.666666666666657" y="664" width="300" height="50"/>
+                                        <rect key="frame" x="25" y="664" width="325" height="50"/>
                                         <color key="backgroundColor" red="0.16078431372549018" green="0.15686274509803921" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="wzb-mw-Sui"/>
@@ -8449,41 +8443,40 @@ jvbdjbvkd</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXB-yC-Tt9">
-                                        <rect key="frame" x="37.666666666666657" y="590" width="300" height="50"/>
+                                        <rect key="frame" x="25" y="590" width="325" height="50"/>
                                         <color key="backgroundColor" red="0.16078431369999999" green="0.15686274510000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="WsG-K0-hj8"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                        <state key="normal" title="Xi  Members Login/Register">
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                        <state key="normal" title="NOL Members Login/Register">
                                             <color key="titleColor" red="0.97647058819999999" green="0.82745098039999998" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <segue destination="BYZ-38-t0r" kind="show" id="tkp-BV-cE1"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="512" translatesAutoresizingMaskIntoConstraints="NO" id="H4J-qd-0P3">
-                                        <rect key="frame" x="75" y="227" width="225" height="220"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nu-omicron-lambda@3x" translatesAutoresizingMaskIntoConstraints="NO" id="H4J-qd-0P3">
+                                        <rect key="frame" x="75" y="224.66666666666669" width="225" height="225"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="225" id="YAJ-si-ks5"/>
+                                            <constraint firstAttribute="width" constant="225" id="xG0-VA-IF9"/>
+                                        </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.97254901960784312" green="0.76862745098039209" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="T6U-6y-prk" secondAttribute="trailing" constant="20" id="86t-G4-w3I"/>
+                                    <constraint firstItem="SIk-Sb-wQV" firstAttribute="leading" secondItem="rXB-yC-Tt9" secondAttribute="leading" id="4N2-vh-PXq"/>
+                                    <constraint firstItem="WSZ-Tu-MTy" firstAttribute="top" secondItem="LIy-gM-Njp" secondAttribute="top" constant="40" id="51J-9e-JJ1"/>
                                     <constraint firstAttribute="bottom" secondItem="SIk-Sb-wQV" secondAttribute="bottom" constant="20" id="8zI-Fq-6F3"/>
-                                    <constraint firstItem="SIk-Sb-wQV" firstAttribute="centerX" secondItem="LIy-gM-Njp" secondAttribute="centerX" id="9LJ-tP-JBk"/>
-                                    <constraint firstItem="H4J-qd-0P3" firstAttribute="height" secondItem="LIy-gM-Njp" secondAttribute="height" multiplier="0.3" id="A0g-52-Yer"/>
                                     <constraint firstItem="H4J-qd-0P3" firstAttribute="centerX" secondItem="LIy-gM-Njp" secondAttribute="centerX" id="FVT-pW-vKt"/>
-                                    <constraint firstItem="T6U-6y-prk" firstAttribute="leading" secondItem="LIy-gM-Njp" secondAttribute="leading" constant="20" id="LCt-Rf-wLa"/>
-                                    <constraint firstItem="H4J-qd-0P3" firstAttribute="width" secondItem="LIy-gM-Njp" secondAttribute="width" multiplier="0.6" id="NN1-1X-lhw"/>
-                                    <constraint firstItem="rXB-yC-Tt9" firstAttribute="width" secondItem="LIy-gM-Njp" secondAttribute="width" multiplier="0.8" id="WA6-6y-iM5"/>
-                                    <constraint firstItem="rXB-yC-Tt9" firstAttribute="centerX" secondItem="LIy-gM-Njp" secondAttribute="centerX" id="YlM-na-uOP"/>
-                                    <constraint firstItem="WSZ-Tu-MTy" firstAttribute="top" secondItem="T6U-6y-prk" secondAttribute="bottom" constant="10" id="Z5g-x4-oqD"/>
+                                    <constraint firstItem="rXB-yC-Tt9" firstAttribute="leading" secondItem="LIy-gM-Njp" secondAttribute="leading" constant="25" id="FXo-sC-xHo"/>
                                     <constraint firstItem="H4J-qd-0P3" firstAttribute="centerX" secondItem="LIy-gM-Njp" secondAttribute="centerX" id="ZNS-xv-hbJ"/>
                                     <constraint firstItem="H4J-qd-0P3" firstAttribute="centerY" secondItem="LIy-gM-Njp" secondAttribute="centerY" constant="-30" id="fJf-3B-ZMD"/>
                                     <constraint firstItem="WSZ-Tu-MTy" firstAttribute="centerX" secondItem="LIy-gM-Njp" secondAttribute="centerX" id="i8Q-ou-1Rm"/>
-                                    <constraint firstItem="SIk-Sb-wQV" firstAttribute="width" secondItem="LIy-gM-Njp" secondAttribute="width" multiplier="0.8" id="jAX-an-uku"/>
-                                    <constraint firstItem="T6U-6y-prk" firstAttribute="top" secondItem="LIy-gM-Njp" secondAttribute="top" constant="25" id="mdD-ne-K47"/>
+                                    <constraint firstAttribute="trailing" secondItem="rXB-yC-Tt9" secondAttribute="trailing" constant="25" id="kNl-c5-U0E"/>
                                     <constraint firstItem="SIk-Sb-wQV" firstAttribute="top" secondItem="rXB-yC-Tt9" secondAttribute="bottom" constant="24" id="nvi-jJ-ott"/>
+                                    <constraint firstItem="SIk-Sb-wQV" firstAttribute="trailing" secondItem="rXB-yC-Tt9" secondAttribute="trailing" id="vZs-x4-2Li"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -8519,7 +8512,7 @@ jvbdjbvkd</string>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="xyA-aW-tAn" customClass="DocumentsTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="80"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xyA-aW-tAn" id="Oqf-NN-5Y1">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -8778,7 +8771,7 @@ jvbdjbvkd</string>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <prototypes>
                                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UpcomingEventsTableCell" rowHeight="125" id="3zR-y5-o2r" customClass="UpcomingEventsTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="44.666666030883789" width="335" height="125"/>
+                                                        <rect key="frame" x="0.0" y="24.333333969116211" width="335" height="125"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3zR-y5-o2r" id="HD4-rO-Ki6">
                                                             <rect key="frame" x="0.0" y="0.0" width="335" height="125"/>
@@ -10088,7 +10081,7 @@ jvbdjbvkd</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecentChatCell" rowHeight="80" id="ha6-Ch-8GS" customClass="RecentChatCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="80"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ha6-Ch-8GS" id="csg-rh-ufg">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -10361,8 +10354,8 @@ jvbdjbvkd</string>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 9613" translatesAutoresizingMaskIntoConstraints="NO" id="8ha-EU-2lg">
                                 <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="512" translatesAutoresizingMaskIntoConstraints="NO" id="smT-wk-snu">
-                                <rect key="frame" x="90" y="325" width="195" height="172"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nu-omicron-lambda@3x" translatesAutoresizingMaskIntoConstraints="NO" id="smT-wk-snu">
+                                <rect key="frame" x="90" y="153" width="195" height="516"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="OwC-TW-iCO">
                                 <rect key="frame" x="0.0" y="109" width="375" height="669"/>
@@ -10493,7 +10486,7 @@ jvbdjbvkd</string>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="E05-yW-L5e" customClass="DirectoryTableViewCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="80"/>
+                                                <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="80"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="E05-yW-L5e" id="LPN-xb-mDb">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -10660,7 +10653,7 @@ jvbdjbvkd</string>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="JM8-TQ-q2Q" customClass="AlphaLinksTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="80"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JM8-TQ-q2Q" id="I8D-dk-k1u">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -10827,7 +10820,7 @@ jvbdjbvkd</string>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="fjW-aB-AbG" customClass="AlphaLinksTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="80"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fjW-aB-AbG" id="5cG-6t-9MP">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -11088,7 +11081,7 @@ jvbdjbvkd</string>
                                 <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="kTF-d4-vkG" customClass="DocumentsTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="80"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kTF-d4-vkG" id="03P-8q-ZK0">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
@@ -13041,7 +13034,7 @@ jvbdjbvkd</string>
                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="116" id="UPg-wq-E1n" customClass="MessageAlertCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="343" height="116"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="343" height="116"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UPg-wq-E1n" id="aio-Bt-HOm">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="116"/>
@@ -13516,7 +13509,7 @@ jvbdjbvkd</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AllPostTableCell" id="4VV-Iy-JzQ" customClass="AllPostTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="130"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4VV-Iy-JzQ" id="ArP-4h-TZJ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
@@ -13663,7 +13656,7 @@ jvbdjbvkd</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="postCell" id="KCI-KA-boF" customClass="AllPostImageCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="174.66666603088379" width="375" height="130"/>
+                                        <rect key="frame" x="0.0" y="154.33333396911621" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KCI-KA-boF" id="yeH-jP-Ete">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
@@ -13786,7 +13779,7 @@ jvbdjbvkd</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AllPostTableCellUser" id="q54-Ef-p9e" customClass="AllPostTableCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="304.66666603088379" width="375" height="130"/>
+                                        <rect key="frame" x="0.0" y="284.33333396911621" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="q54-Ef-p9e" id="J4s-NW-aRZ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
@@ -13933,7 +13926,7 @@ jvbdjbvkd</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="postCellUser" id="wcg-fn-BOE" customClass="AllPostImageCell" customModule="Willingboro_Alphas" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="434.66666603088379" width="375" height="130"/>
+                                        <rect key="frame" x="0.0" y="414.33333396911621" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wcg-fn-BOE" id="um9-tM-lXq">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
@@ -14276,12 +14269,13 @@ jvbdjbvkd</string>
         <image name="message-alert" width="22" height="22"/>
         <image name="no-preview" width="275" height="275"/>
         <image name="notification" width="32" height="32"/>
+        <image name="nu-omicron-lambda@3x" width="504" height="516"/>
         <image name="phone" width="25" height="25"/>
         <image name="qr-code" width="64" height="64"/>
         <image name="right-arrow" width="20" height="20"/>
         <image name="search" width="16" height="16"/>
         <image name="send" width="30" height="30"/>
-        <image name="share" width="20" height="20"/>
+        <image name="share" width="13" height="13"/>
         <image name="share_dark" width="20" height="20"/>
         <image name="sidemenu" width="730" height="950"/>
         <image name="signup_bg" width="375" height="146"/>

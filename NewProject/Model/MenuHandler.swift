@@ -21,7 +21,7 @@ class MenuHandler {
         homeMenu.append(MenuItem(id: -11,name: "Newsletter", icon: "about",isPermanent: true))
 //        homeMenu.append(MenuItem(id: -1,name: "About MU Lambda", icon: "about",isPermanent: true))
         homeMenu.append(MenuItem(id: 1,name: "Message Alert", icon: "alert",isPermanent: false))
-        homeMenu.append(MenuItem(id: 2,name: "XAL Social Media", icon: "social",isPermanent: false))
+        homeMenu.append(MenuItem(id: 2,name: "NOL Social Media", icon: "social",isPermanent: false))
         homeMenu.append(MenuItem(id: 3,name: "Alpha Links", icon: "links",isPermanent: false))
         homeMenu.append(MenuItem(id: 4,name: "News Ticker", icon: "news",isPermanent: false))
         homeMenu.append(MenuItem(id: 5,name: "Contact Us", icon: "torch",isPermanent: false))

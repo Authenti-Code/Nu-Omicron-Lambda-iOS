@@ -12,7 +12,7 @@ enum API_URLS : String {
     //case BASE_URL = ""
     //3.219.184.206 https://ikl.apa1906.app/public/
     //case BASE_URL = "https://ikl.apa1906.app/public/api/"
-    
+    //https://nu-omicron-lambda.apa1906.app/
     case BASE_URL = "https://nu-omicron-lambda.apa1906.app/public/api/"
     case BASE_URL_DOCUMENTS = "https://nu-omicron-lambda.apa1906.app/public/document/"
     case BASE_URL_IMAGES_EVENTS = "https://nu-omicron-lambda.apa1906.app/public/uploads/events/"

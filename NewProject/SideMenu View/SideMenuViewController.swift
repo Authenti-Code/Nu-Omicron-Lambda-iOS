@@ -22,9 +22,9 @@ class SideMenuViewController: UIViewController,APIsDelegate {
     var type = ""
     var id = 0
     let menuList = [
-        "About XAL",
+        "About NOL",
         "Message Alert",
-        "XAL Social Media",
+        "NOL Social Media",
         "Alpha Links",
         "News Ticker",
         "The TORCH",
@@ -75,7 +75,7 @@ class SideMenuViewController: UIViewController,APIsDelegate {
 //                sideMenu.append(MenuItem(id: -9,name: "Comments", icon: "about",isPermanent: true))
 //        sideMenu.append(MenuItem(id: -10,name: "Gate Access", icon: "about",isPermanent: true))
 //        sideMenu.append(MenuItem(id: -11,name: "Newsletter", icon: "about",isPermanent: true))
-      sideMenu.append(MenuItem(id: -1,name: "About XAL", icon: "about",isPermanent: true))
+      sideMenu.append(MenuItem(id: -1,name: "About NOL", icon: "about",isPermanent: true))
         for permission in permissionArray {
             for item in MenuHandler.getSideMenu(){
                 if item.itemID == permission.itemID{

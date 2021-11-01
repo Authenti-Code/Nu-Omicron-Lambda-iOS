@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>983676338400-krpeq01s2njt0fgc6e7t4dutkjua8okj.apps.googleusercontent.com</string>
+	<string>931786979245-jdvm9l1cscasvaodrhf3i97gq59ml8ja.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.983676338400-krpeq01s2njt0fgc6e7t4dutkjua8okj</string>
+	<string>com.googleusercontent.apps.931786979245-jdvm9l1cscasvaodrhf3i97gq59ml8ja</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBuudppLx_XyS98BiIbZgmyOR9dDxWDr5o</string>
+	<string>AIzaSyAsiHIvuPeKiKJ4Wmugnk-h29EzDx5gaUQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>983676338400</string>
+	<string>931786979245</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.authenticode.xi</string>
+	<string>com.authenticode.nol</string>
 	<key>PROJECT_ID</key>
-	<string>xi-alpha-lambda-app</string>
+	<string>nu-omicron-lambda</string>
 	<key>STORAGE_BUCKET</key>
-	<string>xi-alpha-lambda-app.appspot.com</string>
+	<string>nu-omicron-lambda.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:983676338400:ios:5832288e00cb7cc7c8d085</string>
+	<string>1:931786979245:ios:d2b3b20639218dc5575324</string>
 </dict>
 </plist>

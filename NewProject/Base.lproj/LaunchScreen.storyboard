@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,14 +23,8 @@
                                     <constraint firstAttribute="width" constant="260" id="gYc-3D-Jbd"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ΑΦΑ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="163-nm-ccV">
-                                <rect key="frame" x="20" y="40" width="335" height="37"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="31"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nu Omicron Lambda" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66I-w8-kf6">
-                                <rect key="frame" x="37.5" y="87" width="300" height="32"/>
+                                <rect key="frame" x="37.5" y="40" width="300" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Olj-TR-uhA"/>
                                     <constraint firstAttribute="width" constant="300" id="nZh-pU-B2c"/>
@@ -43,12 +37,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.97254901959999995" green="0.76862745099999996" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="163-nm-ccV" secondAttribute="trailing" constant="20" id="0VS-8M-Tp9"/>
                             <constraint firstItem="66I-w8-kf6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1nM-2m-aqr"/>
-                            <constraint firstItem="163-nm-ccV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LjT-Hi-CZi"/>
-                            <constraint firstItem="163-nm-ccV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="QF9-0V-ihT"/>
-                            <constraint firstItem="66I-w8-kf6" firstAttribute="top" secondItem="163-nm-ccV" secondAttribute="bottom" constant="10" id="cAH-vt-IV9"/>
                             <constraint firstItem="UFX-CU-4df" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="lOL-nV-6gm"/>
+                            <constraint firstItem="66I-w8-kf6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="nLg-iA-yhI"/>
                             <constraint firstItem="UFX-CU-4df" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uVQ-b1-U96"/>
                         </constraints>
                     </view>

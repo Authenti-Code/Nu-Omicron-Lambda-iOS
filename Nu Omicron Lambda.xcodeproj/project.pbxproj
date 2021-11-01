@@ -1189,10 +1189,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = NewProject/NewProject.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
-				DEVELOPMENT_TEAM = TGX68QY52K;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWF9Z95X55;
 				INFOPLIST_FILE = NewProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1200,10 +1200,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.authenticode.nu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.authenticode.nol;
 				PRODUCT_NAME = "Willingboro Alphas";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/authenticode/Downloads/Nu Omicron Lambda-iOS/NewProject/IKLBridgingHeader.h";
+				PROVISIONING_PROFILE_SPECIFIER = appstore_nol;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/authenticode/Documents/Authenticode/AuthentiCode Projects/Gurpreet Dhiman/Nu-Omicron-Lambda-iOS/NewProject/IKLBridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1215,10 +1215,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = NewProject/NewProject.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
-				DEVELOPMENT_TEAM = TGX68QY52K;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWF9Z95X55;
 				INFOPLIST_FILE = NewProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1226,10 +1226,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.authenticode.nu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.authenticode.nol;
 				PRODUCT_NAME = "Willingboro Alphas";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/authenticode/Downloads/Nu Omicron Lambda-iOS/NewProject/IKLBridgingHeader.h";
+				PROVISIONING_PROFILE_SPECIFIER = appstore_nol;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/authenticode/Documents/Authenticode/AuthentiCode Projects/Gurpreet Dhiman/Nu-Omicron-Lambda-iOS/NewProject/IKLBridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

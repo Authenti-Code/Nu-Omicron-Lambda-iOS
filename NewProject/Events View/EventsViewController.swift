@@ -82,7 +82,7 @@ extension EventsViewController : UICollectionViewDataSource, UICollectionViewDel
     
     func getAdds() {
         var params = [String:String]()
-        params = ["key": "3p2ddt8bb3plmhuafvsqrzhrp0ptei7r"]; Alamofire.request("https://apa1906.app/api/adds", method: .post, parameters: params, encoding: JSONEncoding.default,headers: nil ).responseJSON { (response:DataResponse<Any>) in
+        params = ["key": "vtqxkzkt5n3kubbjha7uy2l1pc296uqs"]; Alamofire.request("https://apa1906.app/api/adds", method: .post, parameters: params, encoding: JSONEncoding.default,headers: nil ).responseJSON { (response:DataResponse<Any>) in
             
             switch(response.result) {
             case .success(_):

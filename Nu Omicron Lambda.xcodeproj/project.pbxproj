@@ -1189,9 +1189,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = NewProject/NewProject.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Distribution: Ricardo Cumberbatch (CWF9Z95X55)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = CWF9Z95X55;
 				INFOPLIST_FILE = NewProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
@@ -1203,7 +1203,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.authenticode.nol;
 				PRODUCT_NAME = "Willingboro Alphas";
 				PROVISIONING_PROFILE_SPECIFIER = appstore_nol;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/authenticode/Documents/Authenticode/AuthentiCode Projects/Gurpreet Dhiman/Nu-Omicron-Lambda-iOS/NewProject/IKLBridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/authenticode/Nu-Omicron-Lambda-iOS/NewProject/IKLBridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1215,9 +1215,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = NewProject/NewProject.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Distribution: Ricardo Cumberbatch (CWF9Z95X55)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = CWF9Z95X55;
 				INFOPLIST_FILE = NewProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
@@ -1229,7 +1229,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.authenticode.nol;
 				PRODUCT_NAME = "Willingboro Alphas";
 				PROVISIONING_PROFILE_SPECIFIER = appstore_nol;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/authenticode/Documents/Authenticode/AuthentiCode Projects/Gurpreet Dhiman/Nu-Omicron-Lambda-iOS/NewProject/IKLBridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/authenticode/Nu-Omicron-Lambda-iOS/NewProject/IKLBridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
